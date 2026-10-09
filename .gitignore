@@ -1,0 +1,25 @@
+# ---------- Obsidian 本地状态（个人界面状态，不进仓库） ----------
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# ---------- 插件个人配置（可能含 API Key / 网盘凭据，绝对不要提交） ----------
+.obsidian/plugins/*/data.json
+
+# remotely-save 的打包源码内置第三方 OAuth 客户端密钥，会被 GitHub 密钥扫描拦截；
+# 它只用于个人网盘同步，因此不随仓库分发（本机仍可正常使用）。
+.obsidian/plugins/remotely-save/
+
+# Obsidian 本地回收站
+.trash/
+
+# ---------- 课程资料（第三方课件，版权与体积考虑，不进公开仓库） ----------
+课程资料/
+
+# ---------- 系统与临时文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+._*
+~$*
